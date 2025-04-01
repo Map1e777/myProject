@@ -1,5 +1,5 @@
 import js from '@eslint/js'
-import pluginVue from 'eslint-plugin-vue'
+import pluginVue, { rules } from 'eslint-plugin-vue'
 import globals from 'globals'
 
 export default [
@@ -19,6 +19,12 @@ export default [
         ...globals.browser,
       },
     },
+  },
+  {
+    //不再强制要求组件名
+    rules:{
+      'vue/multi-word-component-name':0,
+    }
   },
 
   js.configs.recommended,
