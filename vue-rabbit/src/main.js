@@ -19,3 +19,7 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+//引入懒加载并注册
+import { lazyPlugin } from './directives'
+app.use(lazyPlugin)

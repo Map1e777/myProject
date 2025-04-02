@@ -19,4 +19,4 @@ httpInstance.interceptors.response.use(res => res.data, e => {
   })
 
 
-export default httpInstance  
+export default httpInstance
