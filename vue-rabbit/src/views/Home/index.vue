@@ -6,12 +6,6 @@
   <HomeNew />
   <HomeHot />
   <HomeProduct />
-<HomePanel title="新鲜好恶" sub-title="ahahah">
-<div>我是查拆</div>
-</HomePanel>
-<HomePanel title="哈哈哈哈">
-
-</HomePanel>
 </template>
 
 <script setup>
